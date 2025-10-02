@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
 authors = [{name="zirrizarro"}]
-dependencies = ["matplotlib>=3.5", "mpl_toolkits.axes_grid1"] # axes_grid1 ships with mpl, harmless
+dependencies = ["matplotlib>=3.5"]
 
 [tool.setuptools]
 package-dir = {"" = "."}
