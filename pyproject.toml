@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zirriplot"
+version = "0.1.0"
+description = "Private plotting helpers (rcParams, new_fig, set_size)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name="zirrizarro"}]
+dependencies = ["matplotlib>=3.5", "mpl_toolkits.axes_grid1"] # axes_grid1 ships with mpl, harmless
+
+[tool.setuptools]
+package-dir = {"" = "."}
+packages = ["zirriplot"]
